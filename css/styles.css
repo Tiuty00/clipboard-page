@@ -1,10 +1,9 @@
-/* Palette hsl(171, 66%, 44%)  hsl(233, 100%, 69%)   hsl(210, 10%, 33%)   hsl(201, 11%, 66%) */
 
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 400;
-  margin: 0;
   text-align: center;
+  margin: 0;
 }
 
 a {
@@ -30,9 +29,9 @@ a {
 
 .paragraph-body {
   font-size: 1.125rem;
-  white-space: pre-line;
-  line-height: 1.65;
   letter-spacing: 0.1px;
+  line-height: 1.65;
+  white-space: pre-line;
   margin-bottom: 5.4%;
 }
 
@@ -58,9 +57,9 @@ a {
 
 .title-paragraph {
   font-size: 1.2rem;
-  white-space: pre-line;
   letter-spacing: 0.5px;
   line-height: 1.51;
+  white-space: pre-line;
   margin: 0;
 }
 
@@ -68,26 +67,20 @@ a {
   display: flex;
   justify-content: center;
   margin: 2.8% 0;
-  border-radius: 100px;
-}
-
-.link-btn {
-    border-radius: 100px;
 }
 
 .btn {
   width: 225px;
   height: 52px;
   color: #fff;
+  font-size: 1.1rem;
+  letter-spacing: 0.6px;
   font-weight: 600;
   border-radius: 100px;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px;
-  font-size: 1.1rem;
-  letter-spacing: 0.6px;
 }
 
 .btn-ios {
@@ -110,17 +103,12 @@ a {
   box-shadow: 0px 3px 2px hsl(233, 100%, 69%);
 }
 
-
 /* Features */
-
-#features {
-}
-
 
 .description-h {
   font-size: 1.5rem;
-  margin: 0;
   letter-spacing: -0.5px;
+  margin: 0;
 }
 
 .description-p {
@@ -132,8 +120,8 @@ a {
         /* Track Feature */
 
 .track-features {
-  display: flex;
   text-align: left;
+  display: flex;
   justify-content: space-between;
   margin-bottom: 10.5%;
 }
@@ -144,15 +132,13 @@ a {
 
 .pc-img {
  width: 104.5%;
- transform: translateX(-2.125rem);
+ transform: translateX(-2.5rem);
 }
 
 .track-text {
   width: 41%;
-  display: flex;
-  flex-direction: column;
-  margin: 4.8% 1.5% 0 0;
   line-height: 1.9rem;
+  margin: 4.8% 1.5% 0 0;
 }
 
 .track-heading {
@@ -181,7 +167,6 @@ a {
 
 .tools-description {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   align-items: baseline;
   padding: 0 8.5%;
@@ -251,9 +236,9 @@ a {
 }
 
 .col {
-  margin-right: 100px;
   display: flex;
   flex-direction: column;
+  margin-right: 100px;
 }
 
 .link {
@@ -277,7 +262,6 @@ a {
   filter: invert(58%) sepia(68%) saturate(442%) hue-rotate(122deg) brightness(92%) contrast(92%);
 }
 
-
 /* Attribution */
 
 .attribution-div {
@@ -298,7 +282,7 @@ a {
   color: hsl(233, 100%, 77%)
 }
 
-/* media */
+/* MEDIA SECTION */
 
 @media (max-width: 1202px) {
 
@@ -348,8 +332,8 @@ a {
     background-image: url(../images/bg-header-mobile.png);
     background-size: cover;
     margin: auto;
-    padding: 35% 7.5% 7%;
     margin-bottom: 20%;
+    padding: 33% 7.5% 7%;
   }
 
   .title-heading {
@@ -360,15 +344,15 @@ a {
 
   .title-paragraph {
     font-size: 1rem;
-    white-space: normal;
     letter-spacing: 0;
     line-height: 1.7;
+    white-space: normal;
     margin: 0 2%;
   }
 
   .button {
-    margin: 10% 0;
     align-items: center;
+    margin: 10% 0;
   }
 
   .btn {
@@ -392,13 +376,14 @@ a {
   }
 
   .track-features {
-    margin-top: 20%;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 20%;
     margin-bottom: 25%;
   }
       /* Track Feature MEDIA */
+  
   .img-track {
     width: 90%;
   }
@@ -432,7 +417,7 @@ a {
     width: 100%;
   }
 
-    /* Tools Features MEDIA */
+      /* Tools Features MEDIA */
 
   .tools-features {
     margin-bottom: 25%;
@@ -440,19 +425,19 @@ a {
 
   .tools-description {
     flex-direction: column;
-    padding: 0 0;
-    margin-top: 25%;
     align-items: center;
+    margin-top: 25%;
+    padding: 0 0;
   }
 
-    /* Testimonials MEDIA */
+      /* Testimonials MEDIA */
 
   .testimonials {
     flex-direction: column;
   }
 
   .logo-testimonials {
-  margin-bottom: 20%;
+    margin-bottom: 20%;
   }
 
   .logo-normal {
@@ -466,8 +451,8 @@ a {
   /* Download MEDIA */
 
   #download {
-    padding: 0 7.5%;
     margin-bottom: 30%;
+    padding: 0 7.5%;
   }
 
   .download-paragraph {
@@ -478,7 +463,7 @@ a {
 
   #contact {
     flex-direction: column;
-    padding: 15% 7.5%;
+    padding: 15% 7.5% 8%;
   }
 
   .contact-logo {
@@ -501,6 +486,10 @@ a {
 
   .col-social {
     margin: 10% 0 0 0;
+  }
+  
+  .attribution-div {
+    padding-bottom: 5%;
   }
 
 }
